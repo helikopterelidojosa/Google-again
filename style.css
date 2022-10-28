@@ -1,0 +1,63 @@
+body{
+
+    background-color:rgb(23, 122, 122);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100vh;
+}
+
+input{
+    width: 90%;
+    height: 100%;
+    font-size: 20px;
+    border: white solid 1px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#searchBox{
+ background-color: rgb(255, 255, 255);
+ font-size: 20px;
+ width: 100%;
+ padding: 10px;
+ border-radius: 30px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#colors{
+    display: flex;
+
+    
+    margin:  0 auto;
+}
+
+#colors * {
+ width: 20px;
+ height: 20px;
+
+}
+
+#change-red{
+    background-color: brown;
+}
+
+#change-blue{
+    background-color: rgb(18, 18, 116);
+}
+#change-green{
+    background-color: rgb(18, 116, 57);
+}
+
+#change-orange{
+    background-color: rgb(162, 126, 27);
+}
